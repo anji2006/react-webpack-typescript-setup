@@ -10,6 +10,7 @@ module.exports = {
     open: true,
     compress: true,
     historyApiFallback: true,
+    static: './src',
   },
   plugins: [
     new ReactRefreshWebpackPlugin(),
